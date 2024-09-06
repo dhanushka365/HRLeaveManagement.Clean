@@ -9,13 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E12A49D-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C6FCFD03-5049-4C56-8776-7481391E823C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{365AC744-5046-41B2-84A8-9ED8B8898644}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{365AC744-5046-41B2-84A8-9ED8B8898644}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4AD55ED7-71A4-4C52-89EC-4725D0CE4F1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{BDE2C133-0570-43AF-9619-C035DDCC550E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{365AC744-5046-41B2-84A8-9ED8B8898644} = {546B668C-FEC8-47A5-A1F2-BA276D0EA039}
 		{4AD55ED7-71A4-4C52-89EC-4725D0CE4F1F} = {546B668C-FEC8-47A5-A1F2-BA276D0EA039}
 		{BDE2C133-0570-43AF-9619-C035DDCC550E} = {546B668C-FEC8-47A5-A1F2-BA276D0EA039}
+		{F84CB8FC-623E-4D83-8C3C-22B8DC2C58B9} = {365AC744-5046-41B2-84A8-9ED8B8898644}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BE3072F-8B4B-403F-9F88-676F4A87D407}
